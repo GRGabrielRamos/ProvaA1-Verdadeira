@@ -177,9 +177,7 @@ a {
 #conteudo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: cener;
-    min-height: calc(100vh - 4.375rem);
+    min-height: 100vh;
     /* 100vh - 70px → 100vh - 4.375rem */
     color: #fff;
     max-width: 80rem;
@@ -188,6 +186,7 @@ a {
     padding: 5.625rem 1.25rem 1.25rem;
     /* 90px 20px 20px → 5.625rem 1.25rem 1.25rem */
     text-align: justify;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 #conteudo h1,
@@ -226,7 +225,7 @@ h3 {
 
 body {
     background: linear-gradient(135deg, #1c1c3c, #000);
-    min-height: calc(100vh + 4.375rem);
+    min-height: calc(100vh - 70px);
 }
 
 .galeria {
